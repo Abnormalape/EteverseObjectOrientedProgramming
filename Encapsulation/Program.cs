@@ -28,8 +28,15 @@
         //time2.ShowTime();
         //time2.ShowTimeInSeconds();
 
-        Circle circle = new Circle(3f, 5f, 2.2f);
-        circle.GetArea();
-        circle.ShowData();
+        //Circle circle = new Circle(3f, 5f, 2.2f);
+        //circle.GetArea();
+        //circle.ShowData();
+
+        float x = 2f;
+        double xI = Math.Round(x, 0);
+        if (xI > x) { xI -= 0.5; }
+        else { xI += 0.5; }
+        
+
     }
 }
